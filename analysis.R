@@ -1,10 +1,10 @@
 ##tidy data for Human Activity Recognition Using Smartphones Data Set 
-filename <- "getdata_dataset.zip"
+filename <- "getdata.zip"
 
 ## if the file does not exist this will then download the data to the working directory
 if(!file.exists(filename)){
         file.url <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
-        download.file(file.url, destfile = "getdata_dataset.zip")
+        download.file(file.url, destfile = "getdata.zip")
 }
 
 
