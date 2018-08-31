@@ -10,36 +10,161 @@ Below are the explanations for each variable:
 
 3. Mean and standard deviation (std) for:
 
-    tBodyAcc-XYZ
-    
-    tGravityAcc-XYZ
-    
-    tBodyAccJerk-XYZ
-    
-    tBodyGyro-XYZ
-    
-    tBodyGyroJerk-XYZ
-    
-    tBodyAccMag
-    
-    tGravityAccMag
-    
-    tBodyAccJerkMag
-    
-    tBodyGyroMag
-    
-    tBodyGyroJerkMag
-    
-    fBodyAcc-XYZ
-    
-    fBodyAccJerk-XYZ
-    
-    fBodyGyro-XYZ
-    
-    fBodyAccMag
-    
-    fBodyAccJerkMag
-    
-    fBodyGyroMag
-    
-    fBodyGyroJerkMag
+timeBodyAccelerometer-mean-Y
+
+timeBodyAccelerometer-mean-X
+
+timeBodyAccelerometer-mean-Z
+
+timeBodyAccelerometer-std-X
+
+timeBodyAccelerometer-std-Y
+
+timeBodyAccelerometer-std-Z
+
+timeGravityAccelerometer-mean-X
+
+timeGravityAccelerometer-mean-Y
+
+timeGravityAccelerometer-mean-Z
+
+timeGravityAccelerometer-std-X
+
+timeGravityAccelerometer-std-Y
+
+timeGravityAccelerometer-std-Z
+
+timeBodyAccelerometerJerk-mean-X
+
+timeBodyAccelerometerJerk-mean-Y
+
+timeBodyAccelerometerJerk-mean-Z
+
+timeBodyAccelerometerJerk-std-X
+
+timeBodyAccelerometerJerk-std-Y
+
+timeBodyAccelerometerJerk-std-Z
+
+timeBodyGyro-mean-X
+
+timeBodyGyro-mean-Y
+
+timeBodyGyro-mean-Z
+
+timeBodyGyro-std-X
+
+timeBodyGyro-std-Y
+
+timeBodyGyro-std-Z
+
+timeBodyGyroJerk-mean-X
+
+timeBodyGyroJerk-mean-Y
+
+timeBodyGyroJerk-mean-Z
+
+timeBodyGyroJerk-std-X
+
+timeBodyGyroJerk-std-Y
+
+timeBodyGyroJerk-std-Z
+
+timeBodyAccelerometerMag-mean
+
+timeBodyAccelerometerMag-std
+
+timeGravityAccelerometerMag-mean
+
+timeGravityAccelerometerMag-std
+
+timeBodyAccelerometerJerkMag-mean
+
+timeBodyAccelerometerJerkMag-std
+
+timeBodyGyroMag-mean
+
+timeBodyGyroMag-std
+
+timeBodyGyroJerkMag-mean
+
+timeBodyGyroJerkMag-std
+
+frequencyBodyAccelerometer-mean-X
+
+frequencyBodyAccelerometer-mean-Y
+
+frequencyBodyAccelerometer-mean-Z
+
+frequencyBodyAccelerometer-std-X
+
+frequencyBodyAccelerometer-std-Y
+
+frequencyBodyAccelerometer-std-Z
+
+frequencyBodyAccelerometer-meanFreq-X
+
+frequencyBodyAccelerometer-meanFreq-Y
+
+frequencyBodyAccelerometer-meanFreq-Z
+
+frequencyBodyAccelerometerJerk-mean-X
+
+frequencyBodyAccelerometerJerk-mean-Y
+
+frequencyBodyAccelerometerJerk-mean-Z
+
+frequencyBodyAccelerometerJerk-std-X
+
+frequencyBodyAccelerometerJerk-std-Y
+
+frequencyBodyAccelerometerJerk-std-Z
+
+frequencyBodyAccelerometerJerk-meanFreq-X
+
+frequencyBodyAccelerometerJerk-meanFreq-Y
+
+frequencyBodyAccelerometerJerk-meanFreq-Z
+
+frequencyBodyGyro-mean-X
+
+frequencyBodyGyro-mean-Y
+
+frequencyBodyGyro-mean-Z
+
+frequencyBodyGyro-std-X
+
+frequencyBodyGyro-std-Y
+
+frequencyBodyGyro-std-Z
+
+frequencyBodyGyro-meanFreq-X
+
+frequencyBodyGyro-meanFreq-Y
+
+frequencyBodyGyro-meanFreq-Z
+
+frequencyBodyAccelerometerMag-mean
+
+frequencyBodyAccelerometerMag-std
+
+frequencyBodyAccelerometerMag-meanFreq
+
+frequencyBodyBodyAccelerometerJerkMag-mean
+
+frequencyBodyBodyAccelerometerJerkMag-std
+
+frequencyBodyBodyAccelerometerJerkMag-meanFreq
+
+frequencyBodyBodyGyroMag-mean
+
+frequencyBodyBodyGyroMag-std
+
+frequencyBodyBodyGyroMag-meanFreq
+
+frequencyBodyBodyGyroJerkMag-mean
+
+frequencyBodyBodyGyroJerkMag-std
+
+frequencyBodyBodyGyroJerkMag-meanFreq
+
