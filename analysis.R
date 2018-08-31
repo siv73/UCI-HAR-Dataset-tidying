@@ -55,6 +55,12 @@ train.test.merge$`Activity Name` <- factor(train.test.merge$`Activity Name`,
 train.test.merge <- melt(train.test.merge, id = c("subject", "Activity Name"))
 tidydata.mean <- dcast(train.test.merge, subject + `Activity Name` ~ variable, fun = mean)
 
+##changing names to descriptive names for all the columns
+colnames(tidydata.mean) <- gsub("\\(|\\)","", colnames(tidydata.mean))  
+colnames(tidydata.mean) <- gsub("^t","time", colnames(tidydata.mean))
+colnames(tidydata.mean) <- gsub("^f","frequency", colnames(tidydata.mean))
+colnames(tidydata.mean) <- gsub("Acc","Accelerometer", colnames(tidydata.mean))
+
 ##writing the tidy data to a file
 write.table(tidydata.mean,"tidydata.txt", row.names = FALSE, quote = FALSE)
 
